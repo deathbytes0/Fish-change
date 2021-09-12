@@ -1,0 +1,113 @@
+.navbar {
+    padding: 2px;
+    margin: -4px;
+    background-color: #3b5998;
+   
+}
+.change_pass{
+    color: #fff;
+    
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.change_pass{
+    box-sizing: border-box;
+    display: inline-block;
+    
+    font-size: 16px;
+    line-height: 44px;
+    min-height: 44px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: 100%;
+}
+.changes{
+    /* background-color:;
+    background-image: none;
+    border:1px solid #4080ff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    display: block; */
+    margin-top: 12px;
+    margin: 12px;
+    background-color: #4080ff;
+    border:1px solid #4080ff;
+    font-size: 14px;
+
+
+    
+    width: 98%;
+    border-width: 7px;
+    text-shadow: none;
+    color: #fff;
+    
+
+}
+.bo{
+    margin-top: 12px;
+    margin: 12px;
+    background-color: #fff;
+
+    border: 1px solid #8d949e;
+    width: 98%;
+    padding: 4px;
+    text-shadow: none;
+    color: #4b4f56;
+}
+.inpo{
+    width: 102%;
+    height: 44px;
+    margin: 0px;
+    padding: 6px;
+    border-radius: 2px;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+    
+}
+.forgetcss {
+    font-size: 15px;
+    display: block;
+    
+    /* display: none; */
+}
+a.forgetcss:hover{
+    color: #007bff;
+}
+#hom{
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    background: #E0E4EE;
+    margin: 0px;
+    padding: 0px;
+}
+#nazo{
+   font-size: 25px;
+  margin-top: 20px;
+   top: 4%;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   
+}
+.formweb{
+    padding: 4px;
+}
+#lool{
+    border:1px solid #E0E4EE;
+    padding: 12px;
+    margin-right: 20px;
+}
+#op{
+    color: white;
+}
